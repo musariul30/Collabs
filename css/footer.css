@@ -1,0 +1,41 @@
+main {
+    margin-bottom: 5vw;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top,#021923,#0219230c);
+}
+
+.nanum-gothic-coding-bold {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 3vw;
+}
+
+footer #copyright {
+    text-align: left;
+    div {
+        gap: 1vw;
+        display: flex;
+        align-items: center;
+    }
+}
+
+footer #copyright strong {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+footer #medsos {
+    text-align: right;
+}
