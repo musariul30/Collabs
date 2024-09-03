@@ -10,19 +10,19 @@ const data_dummy = [
     },
     {
         name: "Floral sense",
-        owner: "Owner B",
-        collaborator: ["Collaborator 3", "Collaborator 4"],
+        owner: "YESUNG 예성",
+        collaborator: ["Winter of Aespa"],
         description: "Description for Project 2",
-        link_video: "https://youtu.be/dK7a9rDgU3g?si=3DDhxZbAEm0E8745",
+        link_video: "https://youtu.be/dK7a9rDgU3g?si=dZyQDQz3lw9ZClUV",
         link_gambar: "asset/top2.png",
         rank: '2'
     },
     {
-        name: "Project 3",
-        owner: "Owner C",
-        collaborator: ["Collaborator 5", "Collaborator 6"],
+        name: "Left and Right",
+        owner: "Charlie Puth",
+        collaborator: ["Jung Kook of BTS"],
         description: "Description for Project 3",
-        link_video: "https://youtu.be/dK7a9rDgU3g?si=3DDhxZbAEm0E8745",
+        link_video: "https://youtu.be/mHNCM-YALSA?si=_4Tp_PvD1wSNg0qv",
         link_gambar: "asset/top3.png",
         rank: '3'
     },
@@ -36,11 +36,11 @@ const data_dummy = [
         rank: '4'
     },
     {
-        name: "Project 5",
-        owner: "Owner E",
-        collaborator: ["Collaborator 9", "Collaborator 10", "Collaborator 10", "Collaborator 10", "Collaborator 10", "Collaborator 10"],
+        name: "Left and Right",
+        owner: "Charlie Puth",
+        collaborator: ["Jung Kook of BTS"],
         description: "Description for Project 5",
-        link_video: "https://youtu.be/dK7a9rDgU3g?si=3DDhxZbAEm0E8745",
+        link_video: "https://youtu.be/a7GITgqwDVg?si=kjMz9Eo3UZNu5drI",
         link_gambar: "asset/top5.png",
         rank: '5'
     },
