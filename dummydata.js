@@ -9,7 +9,7 @@ const data_dummy = [
         rank: '1'
     },
     {
-        name: "Project 2",
+        name: "Floral sense",
         owner: "Owner B",
         collaborator: ["Collaborator 3", "Collaborator 4"],
         description: "Description for Project 2",
