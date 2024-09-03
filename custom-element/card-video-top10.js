@@ -23,7 +23,7 @@ class CardVideoTop10 extends HTMLElement {
             </div>
             <div class="poppins-font col-5">
                 <div id="title-video">
-                    <h1 class="poppins-extrabold">Floral Sense</h1>
+                    <h1 class="poppins-extrabold">${this._result.name}</h1>
                 </div>
                 <h3 id="owner">${this._result.owner}</h3>
                 <div id="collaborator">
