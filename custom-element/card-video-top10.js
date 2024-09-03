@@ -17,8 +17,9 @@ class CardVideoTop10 extends HTMLElement {
             <div id="image-number" class="col-6 row">
                 <h1 class="${this._result.color} karla-font col-5">${this._result.rank}<strong>.</strong></h1>
                 <div class="col-5 pop-up" id="thumbnail">
-                    <a href="${this._result.link_video}" class="poppins-extrabold see-video" id="see-video">see video</a>
-                    <img src="${this._result.link_gambar}" alt="">
+                    <a href="${this._result.link_video}" class="poppins-extrabold" target="_blank">
+                        <img src="${this._result.link_gambar}" alt="">
+                    </a>
                 </div>
             </div>
             <div class="poppins-font col-5">

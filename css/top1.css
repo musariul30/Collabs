@@ -56,7 +56,3 @@
     right: calc(var(--size-of-container-top1)/20);
     z-index: 2;
 }
-
-#top1-image {
-    width: 50vw;
-}

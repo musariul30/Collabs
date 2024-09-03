@@ -40,8 +40,12 @@
     text-transform: capitalize;
 }
 
-#thumbnail:hover .see-video{
-    display: block;
+#thumbnail img {
+    transition: transform 0.3s ease;
+}
+
+#thumbnail img:hover {
+    transform: scale(1.1);
 }
 
 card-video-top10 {
