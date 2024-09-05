@@ -1,8 +1,18 @@
 import CardVideoTop10 from "./custom-element/card-video-top10.js";
+import CardVideoTop1 from "./custom-element/card-video-top1.js";
 import data_dummy from "./dummydata.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("berhasil terhubung")
+    // mengambil data rank 1
+    const dataRank1 = data_dummy.filter(item => item.rank == 1);
+    console.log(dataRank1)
+    const headerTitle = document.getElementById('header-top10');
+    const cardTop1Element = document.createElement('card-video-top1');
+    cardTop1Element.result = dataRank1[0];
+    // cardTop1Element.id = "container-top1-new";
+    headerTitle.appendChild(cardTop1Element);
+    
     // Mengambil data yang memiliki rank 2 hingga 9
     const filteredData = data_dummy.filter(item => item.rank >= 2 && item.rank <= 9);
     const sortedData = filteredData.sort((a, b) => a.rank - b.rank);

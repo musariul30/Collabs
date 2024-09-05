@@ -1,11 +1,11 @@
 const data_dummy = [
     {
         name: "It Has To Be You",
-        owner: "Owner A",
-        collaborator: ["Collaborator 1", "Collaborator 2"],
-        description: "Description for Project 1",
-        link_video: "https://youtu.be/dK7a9rDgU3g?si=3DDhxZbAEm0E8745",
-        link_gambar: "../asset/top2.png",
+        owner: "YESUNG 예성",
+        collaborator: ["Super Junior"],
+        description: "In the Super Show Spin Off: Halftime, Super Junior delivers a heartfelt performance of 'It Has To Be You', originally sung by Yesung for the Cinderella’s Stepsister OST. The group brings new depth to the emotional ballad, showcasing their vocal harmony while honoring the original rendition.",
+        link_video: "https://youtu.be/gmFUioBEJzs?si=fXXDs73YIUE4w_p-",
+        link_gambar: "../asset/top1new.png",
         rank: '1'
     },
     {
