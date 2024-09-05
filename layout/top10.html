@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../css/cardtop10.css">
     <link rel="stylesheet" href="../css/style.scss">
     <link rel="stylesheet" href="../css/footer.css">
@@ -16,43 +17,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body data-bs-theme="dark-mode">
-    <header class="header-area">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <h2><span class="color-b">COOL</span><span class="color-p">LABS</span></em></h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="top10.html">TOP 10</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">NEW</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">ABOUT</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="search-input">
-                    <form id="search" action="#">
-                      <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
-                      <i class="fa fa-search"></i>
-                    </form>
-                </div>
-
+    <nav class="navbar navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i><span class="color-b">COOL</span><span class="color-p">LABS</span></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="top10.html">TOP 10</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="top10.html">NEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="top10.html">ABOUT</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-secondary" type="submit">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </button>
+                </form>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     
     <main>
         <article id="header-top10">
@@ -64,23 +60,17 @@
                 <a href="https://youtu.be/gmFUioBEJzs?si=fXXDs73YIUE4w_p-" id="thumbnail"><img src="../asset/top1new.png" alt="" id="top1-image"></a>
                 <div>
                     <h1>It Has To Be You</h1>
-                    <h3>Super Junior Yesung</h3>
-                    <p>In the Super Show Spin Off: Halftime, Super Junior performs "It Has To Be You" (OST. Cinderella’s Step Sister), originally sung by Yesung.</p>
-                    <h4>Collaborator: <strong>Super Junior</strong></h4>
+                    <div id="owner-collab">
+                        <h3>Super Junior Yesung</h3>
+                        <h3 class="strip">-</h3>
+                        <h3 class="collab">Super Junior</h3>
+                    </div>
+                    
+                    <p>In the Super Show Spin Off: Halftime, Super Junior delivers a heartfelt performance of "It Has To Be You", originally sung by Yesung for the Cinderella’s Stepsister OST. The group brings new depth to the emotional ballad, showcasing their vocal harmony while honoring the original rendition.</p>
+                    <!-- <h4>Collaborator: <strong>Super Junior</strong></h4> -->
                 </div>
             </section>
         </article>
-            
-            <!-- <div id="container-top1">
-                <div id="child-1">
-                    <img src="./asset/top1.png" alt="" id="top1">
-                    <div id="child-2">
-                        <img src="./asset/tahun2024.png" alt="" id="tahun2024">
-                        <img src="./asset/hiasan.png" alt="" id="hiasan">
-                        <img src="./asset/yesung.jpg" alt="" id="gambar-top1">
-                    </div>
-                </div>
-            </div> -->
 
         <article>
             <div id="bg-1">
@@ -102,5 +92,9 @@
         </div>
     </footer>
     <script type="module" src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
 </body>
 </html>

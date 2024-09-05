@@ -1,3 +1,14 @@
-header a{
+:root {
+    --dark-color: #021923;
+    --pink-color: #e928a0;
+    --blue-color: #31a6d9;
+  }
+
+nav .nav-link .active, nav .nav-link{
     color: white !important;
 }
+
+nav .active {
+    border-bottom: 2px solid var(--pink-color);
+}
+
