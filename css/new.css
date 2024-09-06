@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-image: url(../asset/bg-new2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100vw;
+    font-family: "Poppins" !important;
+}
+  
+.courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-size: 300px;
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;
+}
+
+.new-image {
+    width: 30vw;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+card-video-new {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.data-video-new {
+    width: 50vw;
+}
+
+.data-video-new h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.data-video-new .owner, .data-video-new .collaborator span{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.data-video-new .owner {
+    font-size: 22px;
+}
+
+.data-video-new .collaborator span {
+    font-size: 20px;
+}
+
+main {
+    margin: auto;
+    padding-bottom: 7vw;
+}

@@ -26,4 +26,43 @@
       --bs-btn-focus-border-color: #{rgba($white, .5)};
       --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
     }
+    
   }
+
+.color-p {
+    color: #e928a0 !important;
+}
+
+.color-p strong {
+    color: #31a6d9;
+}
+
+.color-b {
+    color: #31a6d9 !important;
+}
+
+.color-b strong{
+    color: #e928a0;
+}
+
+.color-10 {
+    color: #e928a0;
+}
+
+.color-10::first-letter {
+    color: #31a6d9;
+}
+
+.color-10 strong {
+    color: #31a6d9;
+}
+
+.bg-b {
+  background-color: #31a6d9;
+  width: fit-content;
+}
+
+.bg-p {
+  background-color: #e928a0;
+  width: fit-content;
+}

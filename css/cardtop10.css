@@ -144,34 +144,6 @@ card-video-top10 #collaborator span{
     background-color: #31a6d9;
 }
 
-.color-p {
-    color: #e928a0;
-}
-
-.color-p strong {
-    color: #31a6d9;
-}
-
-.color-b {
-    color: #31a6d9;
-}
-
-.color-b strong{
-    color: #e928a0;
-}
-
-.color-10 {
-    color: #e928a0;
-}
-
-.color-10::first-letter {
-    color: #31a6d9;
-}
-
-.color-10 strong {
-    color: #31a6d9;
-}
-
 .karla-font {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
