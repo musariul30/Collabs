@@ -34,9 +34,9 @@ header .navbar {
 .background-header .navbar-brand h2 {
 	top: 0;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.8) !important; /* Optional: Add slight opacity on scroll */
+    background-color: rgba(255, 255, 255, 0.8) !important; 
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for background */
+    transition: background-color 0.3s ease-in-out; 
 }
 
 .background-header .navbar-nav a.nav-link {
@@ -48,6 +48,17 @@ header .navbar {
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
 	color: #e928a0!important;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between brand, nav items, and search */
+    align-items: center; /* Vertically centers items */
+    width: 100%;
+}
+.navbar .navbar-nav {
+    margin: 0 auto; /* Centers the nav items horizontally */
+    display: flex; /* Ensures the nav items are in a row */
+    gap: 20px; /* Adds space between the links */
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -98,7 +109,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
 	color: #fff;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 	border-bottom: 3px solid #e928a0;
 }
 .navbar .navbar-toggler-icon {
@@ -154,7 +165,7 @@ header .navbar {
 
 .navbar #search i {
     position: absolute; /* Position absolutely relative to the search container */
-    color: #fff;
+    color: #31a6d9;
     right: 20px; /* Adjust right position */
     top: 50%; /* Center vertically */
     transform: translateY(-70%); /* Adjust vertical position */
