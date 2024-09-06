@@ -5,11 +5,25 @@ class CardVideoNew extends HTMLElement {
 
     set result(result) {
         this._result = result;
+        this._result.id_accordian = this.getRandomNameWithNumbers(this._result.name, 4);
         this.render();
+    }
+
+    getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+      
+    getRandomNameWithNumbers(name, numLength) {
+        let randomNumber = this.getRandomNumber(10 ** (numLength - 1), (10 ** numLength) - 1);
+        return this.sanitizeName(name) + randomNumber;
     }
 
     renderCollaborator(collaborators) {
         return collaborators.map(collaborator => `<span class="bg-b rounded-3">${collaborator}</span>`).join('');
+    }
+
+    sanitizeName(name) {
+        return name.replace(/\s+/g, '-'); 
     }
 
     render() {
@@ -24,11 +38,11 @@ class CardVideoNew extends HTMLElement {
           <div class="accordion" id="${this._result.name}">
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${this._result.id_accordian}" aria-expanded="false" aria-controls="${this._result.name}">
                   Description
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#${this._result.name}">
+              <div id="${this._result.id_accordian}" class="accordion-collapse collapse" data-bs-parent="#${this._result.name}">
                 <div class="accordion-body">
                     ${this._result.description}
                 </div>
