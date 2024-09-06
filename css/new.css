@@ -60,6 +60,7 @@ card-video-new {
 
 .data-video-new .collaborator span {
     font-size: 20px;
+    margin-right: 15px;
 }
 
 main {
@@ -69,4 +70,5 @@ main {
 
 header {
     margin: 0;
+    height: auto !important;
 }

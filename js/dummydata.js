@@ -27,7 +27,7 @@ const data_dummy = [
         rank: '3'
     },
     {
-        name: "Bruno Mars",
+        name: "Bruno Mars peaches",
         owner: "Owner D",
         collaborator: ["Anderson .Paak", "Silk Sonic"],
         description: "Description for Project 4",
@@ -36,7 +36,7 @@ const data_dummy = [
         rank: '4'
     },
     {
-        name: "Left and Right",
+        name: "Left and Right peaches",
         owner: "Charlie Puth",
         collaborator: ["Jung Kook of BTS"],
         description: "Description for Project 5",

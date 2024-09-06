@@ -28,7 +28,7 @@ class CardVideoNew extends HTMLElement {
 
     render() {
         this.innerHTML = `   
-        <a href="${this._result.link_video}" target="_blank">
+        <a href="${this._result.link_video}" target="_blank" id="thumbnail">
           <img src="${this._result.link_gambar}" alt="" class="new-image">
         </a>
         <section class="data-video-new">

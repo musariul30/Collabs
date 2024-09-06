@@ -1,0 +1,10 @@
+body {
+    background-image: url(../asset/bg-search.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100vw;
+    font-family: "Poppins" !important;
+    background-attachment: fixed;
+}
