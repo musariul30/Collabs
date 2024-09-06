@@ -8,13 +8,15 @@ body {
     height: 120vh;
     width: 100vw;
     font-family: "Poppins" !important;
+    background-attachment: fixed;
 }
   
 .courier-prime-bold {
     font-family: "Courier Prime", monospace;
-    font-weight: 700;
-    font-size: 300px;
+    font-weight: 330;
+    font-size: 220px;
     text-align: center;
+    /* transform: scaleY(0.7) scaleX(1.1); */
     font-style: normal;
     text-transform: uppercase;
     color: white;
@@ -63,4 +65,8 @@ card-video-new {
 main {
     margin: auto;
     padding-bottom: 7vw;
+}
+
+header {
+    margin: 0;
 }
