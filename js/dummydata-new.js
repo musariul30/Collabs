@@ -74,7 +74,7 @@ const data_dummy_new = [
     {
         name: "Dientes",
         owner: "J Balvin",
-        collaborator: ["USHER &  DJ Khaled"],
+        collaborator: ["USHER", "DJ Khaled"],
         description: "In the Super Show Spin Off: Halftime, Super Junior delivers a heartfelt performance of 'It Has To Be You', originally sung by Yesung for the Cinderella’s Stepsister OST. The group brings new depth to the emotional ballad, showcasing their vocal harmony while honoring the original rendition.",
         link_video: "https://youtu.be/gVPgwoXm5Rc?si=5np-x2H3N7-N7IXP",
         link_gambar: "../asset/new9.png",
@@ -83,7 +83,7 @@ const data_dummy_new = [
     {
         name: "Why I Love You So",
         owner: "Alok",
-        collaborator: ["James Hurr & Supafly"],
+        collaborator: ["James Hurr", "Supafly"], 
         description: "Description for Project 2",
         link_video: "https://youtu.be/iC_DzhHEDKI?si=7Dr9dN426-gEb_Cl",
         link_gambar: "../asset/new10.png",
