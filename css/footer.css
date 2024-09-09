@@ -2,6 +2,10 @@ main {
     margin-bottom: 5vw;
 }
 
+body{
+    overflow-x: hidden
+}
+
 footer {
     position: fixed;
     bottom: 0;
