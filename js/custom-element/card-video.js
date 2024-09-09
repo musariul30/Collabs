@@ -1,4 +1,4 @@
-class CardVideoNew extends HTMLElement {
+class CardVideo extends HTMLElement {
     constructor(){
         super();
     }
@@ -53,5 +53,5 @@ class CardVideoNew extends HTMLElement {
     }
 }
 
-customElements.define('card-video-new', CardVideoNew);
-export default CardVideoNew;
+customElements.define('card-video', CardVideo);
+export default CardVideo;

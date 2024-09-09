@@ -17,51 +17,10 @@ body {
     font-weight: 330;
     font-size: 220px;
     text-align: center;
-    /* transform: scaleY(0.7) scaleX(1.1); */
     font-style: normal;
     text-transform: uppercase;
     color: white;
     text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;
-}
-
-.new-image {
-    width: 30vw;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-
-card-video-new {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 5vw;
-    align-content: center;
-    justify-content: center;
-}
-
-.data-video-new {
-    width: 50vw;
-}
-
-.data-video-new h1 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 60px;
-}
-
-.data-video-new .owner, .data-video-new .collaborator span{
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 10px;
-}
-
-.data-video-new .owner {
-    font-size: 22px;
-}
-
-.data-video-new .collaborator span {
-    font-size: 20px;
-    margin-right: 15px;
 }
 
 main {
