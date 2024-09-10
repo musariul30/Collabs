@@ -1,0 +1,81 @@
+#carouselExampleCaptions {
+    height: 90vh; /* Mengatur tinggi carousel sesuai dengan tinggi layar */
+  }
+  
+  #carouselExampleCaptions .carousel-inner {
+    height: 100%;
+  }
+  
+  #carouselExampleCaptions .carousel-item {
+    height: 100%;
+  }
+  
+  #carouselExampleCaptions .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Mengatur gambar agar menutupi seluruh area tanpa distorsi */
+  }
+  
+  #carouselExampleCaptions .carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%; /* Memastikan caption melebar sepanjang carousel */
+    padding: 20px; /* Memberikan jarak dari tepi */
+    text-align: center; /* Teks rata kiri */
+  }
+  
+  #carouselExampleCaptions .carousel-caption h5 {
+    font-size: 3rem; /* Ukuran font besar untuk judul */
+    font-weight: 800; /* Membuat teks lebih tebal */
+  }
+  
+  #carouselExampleCaptions .carousel-caption p {
+    font-size: 1.5rem; /* Ukuran font untuk deskripsi */
+    font-weight: 700; /* Menjaga teks tetap normal */
+  }
+  #carouselExampleCaptions .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the carousel area */
+    opacity: 0.5; /* Adjust opacity here (0 is fully transparent, 1 is fully opaque) */
+  }  
+
+/* Container for scrolling text */
+.title-berjalan {
+    overflow: hidden; /* Hide any overflow content */
+    white-space: nowrap; /* Prevent line breaks */
+    width: 100vw; /* Full viewport width */
+    position: relative; /* Relative positioning for child elements */
+  }
+  
+  /* Wrapper for scrolling text */
+  .scrolling-wrapper {
+    display: flex; /* Align children in a row */
+    width: 100%; /* Full width to ensure proper alignment */
+  }
+  
+  /* Content that will scroll */
+  .scrolling-text {
+    display: flex; /* Align text in a row */
+    animation: scroll-left 3s linear infinite; /* Apply scrolling animation */
+  }
+  
+  /* Define the scrolling animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0); /* Start from the initial position */
+    }
+    100% {
+      transform: translateX(-29%); /* Move completely to the left */
+    }
+  }
+  
+  /* Optional: styling for text spans */
+  .font-tipis {
+    font-weight: 300; /* Thin font weight */
+  }
+  
+  .font-tebal {
+    font-weight: 700; /* Bold font weight */
+  }
+  
+  
