@@ -152,3 +152,54 @@ card-video-top10 #collaborator span{
     font-weight: 600;
     /* font-size: calc(var(--size-of-video-top10)/7); */
 }
+
+
+/* Media Query for screens with max-width of 992px */
+@media (max-width: 992px) {
+    #header-top10 {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        text-align: center; /* Center text */
+        padding: 1rem 0;
+    }
+
+    #header-title {
+        order: 0; /* Ensure "Digital Gallery Collaboration" remains at the top */
+        margin-top: 1rem; /* Adjust margin as needed */
+    }
+
+    .judul-hal {
+        order: 2; /* Ensure header is above "It has to be you" */
+    }
+
+    #it-has-to-be-you { /* Assuming "It has to be you" has this ID or class */
+        order: 3; /* Ensure this is below the other elements */
+        margin-top: 1rem; /* Adjust spacing */
+    }
+}
+
+/* Media Query for screens with max-width of 768px */
+@media (max-width: 768px) {
+    #header-top10 {
+        display: flex;
+        flex-direction: column; /* Continue stacking items vertically */
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    #header-title {
+        order: 0; /* Keep "Digital Gallery Collaboration" at the top */
+        margin-top: 1.5rem;
+    }
+
+    .judul-hal {
+        order: 2; /* Ensure header remains above */
+    }
+
+    #it-has-to-be-you { /* Adjust if "It has to be you" is a different ID */
+        order: 3; /* Position "It has to be you" below */
+        margin-top: 1.5rem;
+    }
+}
