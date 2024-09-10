@@ -42,4 +42,11 @@ footer #copyright strong {
 
 footer #medsos {
     text-align: right;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer #medsos img {
+    width: 40px;
 }
