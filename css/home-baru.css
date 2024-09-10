@@ -1,3 +1,9 @@
+:root {
+  --dark-color: #021923;
+  --pink-color: #e928a0;
+  --blue-color: #31a6d9;
+}
+
 #carouselExampleCaptions {
     height: 90vh; /* Mengatur tinggi carousel sesuai dengan tinggi layar */
   }
@@ -45,6 +51,7 @@
     white-space: nowrap; /* Prevent line breaks */
     width: 100vw; /* Full viewport width */
     position: relative; /* Relative positioning for child elements */
+    margin: 3vw auto 3vw;
   }
   
   /* Wrapper for scrolling text */
@@ -56,26 +63,136 @@
   /* Content that will scroll */
   .scrolling-text {
     display: flex; /* Align text in a row */
-    animation: scroll-left 3s linear infinite; /* Apply scrolling animation */
+    animation: scroll-left 12s linear infinite; /* Apply scrolling animation */
   }
   
   /* Define the scrolling animation */
   @keyframes scroll-left {
     0% {
-      transform: translateX(0); /* Start from the initial position */
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(-29%); /* Move completely to the left */
+      transform: translateX(-50%);
     }
+  }
+
+  .scrolling-text h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80px;
   }
   
   /* Optional: styling for text spans */
-  .font-tipis {
-    font-weight: 300; /* Thin font weight */
+  .font-tipis-p {
+    color: var(--dark-color);
+    text-shadow: 
+    -1px -1px var(--pink-color),  
+     1px -1px var(--pink-color),
+    -1px  1px var(--pink-color),
+     1px  1px var(--pink-color);
   }
   
-  .font-tebal {
-    font-weight: 700; /* Bold font weight */
+  .font-tebal-b {
+    color: #aee2f9;
+    text-shadow: 
+    -1px -1px 1px var(--blue-color),  
+     1px -1px 8px var(--blue-color),
+    -1px  1px 1px var(--blue-color),
+     1px  1px 8px var(--blue-color);
+  }
+
+  .font-tipis-b {
+    color: var(--dark-color);
+    text-shadow: 
+    -1px -1px var(--blue-color),  
+     1px -1px var(--blue-color),
+    -1px  1px var(--blue-color),
+     1px  1px var(--blue-color);
   }
   
+  .font-tebal-p {
+    color: #fbacdd;
+    text-shadow: 
+    -1px -1px 1px var(--pink-color),  
+     1px -1px 8px var(--pink-color),
+    -1px  1px 1px var(--pink-color),
+     1px  1px 8px var(--pink-color);
+  }
   
+  .card-highlight a img{
+    width: 25vw;
+    border: 3px solid var(--pink-color);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .isi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .isi h1 {
+    text-transform: capitalize;
+    margin: 1vw auto 1vw;
+  }
+
+  .isi h3, .isi .collab h3{
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin: 25px 0;
+  }
+
+  .isi h3 {
+    background-color: var(--pink-color);
+  }
+
+  .isi .collab h3 {
+    background-color: var(--blue-color);
+  }
+
+  .isi-other-videos {
+    align-items: stretch;
+    align-content: center;
+  }
+
+  .isi-other-videos a img, .isi-other-videos a#see-all-button{
+    width: 18vw;
+    border: 3px solid var(--blue-color);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .card-highlight a img:hover, .isi-other-videos a img:hover, .isi-other-videos a#see-all-button:hover {
+    transform: scale(1.1);
+  }
+
+  #see-all-button {
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #see-all-button .material-symbols-outlined {
+    background-color: white;
+    color: var(--blue-color);
+    font-weight: 700px;
+    border-radius: 100%;
+    padding: 10px;
+  }
+
+  #see-all-button p {
+    color: white;
+  }  
+
+  main {
+    margin-bottom: 10vw;
+  }
