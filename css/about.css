@@ -102,6 +102,11 @@
 }
 
 /* Responsive design */
+@media (max-width: 992px){
+    .about-background{
+        margin-top: 60px;
+    }
+}
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
@@ -110,5 +115,5 @@
     .about-left, .about-right {
         text-align: center;
         padding: 10px;
-    }
+    }   
 }

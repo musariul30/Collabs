@@ -6,6 +6,7 @@
     height: 90vh;
     width: 100vw;
     margin-bottom: 5vw;
+    
 }
 
 #header-top10 card-video-top1 {
@@ -94,4 +95,41 @@ card-video-top1 p {
     text-transform: capitalize;
     font-weight: 800;
     font-size: 50px;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    card-video-top1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw;
+        gap: 2vw;
+    }
+    
+    card-video-top1 h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #header-title h3 {
+        font-size: 15px;
+    }
+    
+    #header-title h1 {
+        font-size: 32px;
+    }
+    
+    #top1-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2vw;
+    }
+    
+    #header-top10 {
+        height: auto;
+        padding: 20px;
+        margin-top: 45px;
+    }
 }

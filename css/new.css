@@ -32,3 +32,17 @@ header {
     margin: 0;
     height: auto !important;
 }
+
+
+
+
+
+@media (max-width: 992px) {
+    main{
+        margin:2rem;
+    }
+    .courier-prime-bold{
+        font-size: 140px;
+        margin-top:50px;
+    }
+}

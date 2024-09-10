@@ -186,7 +186,7 @@ card-video-top10 #collaborator span{
         flex-direction: column; /* Continue stacking items vertically */
         align-items: center;
         text-align: center;
-        padding: 1.5rem 0;
+        padding: 3.5rem 0;
     }
 
     #header-title {

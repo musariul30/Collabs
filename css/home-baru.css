@@ -196,3 +196,99 @@
   main {
     margin-bottom: 10vw;
   }
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive styles for tablets and smaller devices */
+@media (max-width: 992px) {
+  #carouselExampleCaptions .carousel-caption h5 {
+    font-size: 2.5rem; /* Adjust the heading size */
+  }
+
+  #carouselExampleCaptions .carousel-caption p {
+    font-size: 1.2rem; /* Adjust the paragraph size */
+  }
+
+  .scrolling-text h1 {
+    font-size: 60px; /* Adjust scrolling text size */
+  }
+
+  .card-highlight a img {
+    width: 35vw; /* Make images larger on smaller screens */
+  }
+
+  .isi {
+    gap: 3vw; /* Adjust the gap between items */
+  }
+
+  .isi-other-videos a img, .isi-other-videos a#see-all-button {
+    width: 25vw; /* Adjust other video thumbnails */
+  }
+}
+
+@media (max-width: 768px) {
+  #carouselExampleCaptions {
+    height: 70vh; /* Reduce carousel height */
+  }
+
+  #carouselExampleCaptions .carousel-caption {
+    top: 20%;
+    padding: 10px;
+  }
+
+  #carouselExampleCaptions .carousel-caption h5 {
+    font-size: 2rem; /* Smaller heading for smaller screens */
+  }
+
+  #carouselExampleCaptions .carousel-caption p {
+    font-size: 1rem; /* Smaller paragraph text */
+  }
+
+  .scrolling-text h1 {
+    font-size: 40px; /* Smaller scrolling text */
+  }
+
+  .card-highlight a img {
+    width: 50vw; /* Further reduce image size */
+  }
+
+  .isi {
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add space between stacked items */
+  }
+
+  .isi h1 {
+    font-size: 1.5rem; /* Smaller font size for titles */
+  }
+
+  .isi h3, .isi .collab h3 {
+    font-size: 1rem; /* Smaller font size for headers */
+  }
+
+  .isi-other-videos a img, .isi-other-videos a#see-all-button {
+    width: 45vw; /* Adjust size of other video thumbnails */
+  }
+
+  #see-all-button {
+    width: 100%; /* Full width button */
+    padding: 15px;
+    font-size: 1.2rem; /* Adjust button text size */
+  }
+
+  #see-all-button .material-symbols-outlined {
+    padding: 8px;
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+
+  main {
+    margin-bottom: 5vw; /* Adjust bottom margin */
+  }
+}

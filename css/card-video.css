@@ -45,3 +45,99 @@ card-video {
 #thumbnail img:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles for medium devices (up to 992px) */
+@media (max-width: 992px) {
+    .card-video {
+      display: flex;
+      flex-direction: column-reverse; /* Reverse order to place the image on top */
+      align-items: center; /* Center-align items */
+      justify-content: center; /* Center items within the container */
+      gap: 15px; /* Adjust spacing */
+    }
+  
+    .new-image {
+      width: 50vw; /* Adjust width for medium screens */
+      margin-bottom: 10px; /* Add some space below the image */
+    }
+  
+    .data-video-new {
+      width: 80vw; /* Adjust width for better layout */
+      text-align: center; /* Center-align text */
+    }
+  
+    .data-video-new h1 {
+      font-size: 40px; /* Adjust heading size */
+      margin: 10px 0; /* Adjust margin */
+    }
+  
+    .data-video-new .owner {
+      font-size: 18px; /* Adjust font size */
+    }
+  
+    .data-video-new .collaborator span {
+      font-size: 16px; /* Adjust font size */
+    }
+  }
+  
+  /* Responsive styles for small devices (up to 768px) */
+  @media (max-width: 768px) {
+    .card-video {
+      display: flex;
+      flex-direction: column-reverse; /* Reverse order to place the image on top */
+      align-items: center; /* Center-align items */
+      justify-content: center; /* Center items within the container */
+      gap: 15px; /* Reduce gap between elements */
+    }
+  
+    .new-image {
+      width: 80vw; /* Set image width larger for small screens */
+      border-width: 2px; /* Thinner border for smaller screens */
+      margin-bottom: 10px; /* Add some space below the image */
+    }
+  
+    .data-video-new {
+      width: 90vw; /* Almost full width on small screens */
+      padding: 10px; /* Add padding for spacing */
+      text-align: center; /* Center-align all text */
+    }
+  
+    .data-video-new h1 {
+      font-size: 24px; /* Smaller heading size for better readability */
+      margin: 10px 0; /* Adjust margin for spacing */
+    }
+  
+    .data-video-new .owner {
+      font-size: 14px; /* Smaller text size for owner */
+      padding: 5px; /* Reduce padding */
+    }
+  
+    .data-video-new .collaborator span {
+      font-size: 12px; /* Smaller font size for collaborator */
+      margin-right: 8px; /* Adjust margin */
+      padding: 4px; /* Reduce padding */
+    }
+  
+    #thumbnail img {
+      width: 100%; /* Make thumbnail images fully responsive */
+      border-radius: 8px; /* Maintain rounded corners */
+    }
+  
+    #thumbnail img:hover {
+      transform: scale(1.05); /* Slightly smaller scale effect for hover */
+    }
+  }
+  
+  
+  
