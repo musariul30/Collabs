@@ -28,16 +28,16 @@ const data_dummy = [
         rank: '3'
     },
     {
-        name: "Bruno Mars peaches",
-        owner: "Owner D",
+        name: "Leave the Door Open",
+        owner: "Bruno Mars",
         collaborator: ["Anderson .Paak", "Silk Sonic"],
-        description: "Bruno Mars teams up with Anderson .Paak under Silk Sonic for Peaches. This smooth and groovy track highlights their signature retro-inspired sound, blending soulful vocals with rich instrumentation. The collaboration showcases their seamless chemistry, delivering a feel-good vibe.",
+        description: "Leave the Door Open by Bruno Mars, Anderson .Paak, and Silk Sonic is a smooth, soulful track that captures the essence of classic R&B. With its lush vocals, romantic lyrics, and nostalgic sound, the song evokes a warm, inviting atmosphere. The chemistry between Mars and .Paak shines through, making it a timeless love ballad that feels both modern and rooted in tradition.",
         link_video: "https://youtu.be/adLGHcj_fmA?si=yvUz3W8sCjjFvjpB",
         link_gambar: "../asset/top4.png",
         rank: '4'
     },
     {
-        name: "Left and Right peaches",
+        name: "Left and Right",
         owner: "Charlie Puth",
         collaborator: ["Jung Kook of BTS"],
         description: "Charlie Puth and Jung Kook of BTS come together for Left and Right.This upbeat and catchy track blends their smooth vocals, creating a playful and harmonious sound. The collaboration showcases their dynamic chemistry, making it a fan favorite with its fun energy.",
