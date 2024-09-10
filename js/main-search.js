@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const keyword = params.get('keyword');
     const mainElement = document.getElementsByTagName('main')[0];
     if(keyword){
-        document.getElementsByTagName('header')[0].innerHTML = "" ;
-        document.getElementsByTagName('header')[0].style.height = '20px !important';
+        document.getElementsByClassName('judul-hal')[0].innerHTML = "" ;
+        document.getElementsByClassName('judul-hal')[0].style.height = '20px !important';
         mainElement.innerHTML = "" ;   
         mainElement.classList.remove("no-result")
+        mainElement.classList.add("result")
         const datadummy1 = data_dummy.filter(item => item.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()));
         const datadummy2 = data_dummy_new.filter(item => item.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()));
         const dataall = datadummy1.concat(datadummy2);
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } else {
             // Create and display a message indicating no results were found
+            mainElement.classList.remove("result")
             mainElement.classList.add("no-result")
             const noResultsMessage = document.createElement('p');
             noResultsMessage.textContent = "We couldn't find what you were looking for!";
