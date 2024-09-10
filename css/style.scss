@@ -70,3 +70,10 @@
 .header-0 {
 	height: 0 !important;
 }
+
+main.no-result {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 85vh; /* Ensure it takes at least the full height of the viewport */
+}
