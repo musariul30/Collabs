@@ -37,3 +37,11 @@ card-video {
     font-size: 20px;
     margin-right: 15px;
 }
+
+#thumbnail img {
+    transition: transform 0.5s ease;
+}
+
+#thumbnail img:hover {
+    transform: scale(1.1);
+}
