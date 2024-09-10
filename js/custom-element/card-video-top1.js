@@ -14,7 +14,7 @@ class CardVideoTop1 extends HTMLElement {
 
     render() {
         this.innerHTML = `   
-                <a href="${this._result.link_video}" id="thumbnail" target="_blank"><img src="${this._result.link_gambar}" alt="" id="top1-image"></a>
+                <a href="${this._result.link_video}" id="thumbnail" target="_blank"><img src="${this._result.link_gambar_top1}" alt="" id="top1-image"></a>
                 <div>
                     <h1>${this._result.name}</h1>
                     <div id="owner-collab">
