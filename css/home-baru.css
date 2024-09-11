@@ -5,7 +5,7 @@
 }
 
 #carouselExampleCaptions {
-    height: 90vh; /* Mengatur tinggi carousel sesuai dengan tinggi layar */
+    height: 90vh; 
   }
   
   #carouselExampleCaptions .carousel-inner {
@@ -18,52 +18,52 @@
   
   #carouselExampleCaptions .carousel-item img {
     height: 100%;
-    object-fit: cover; /* Mengatur gambar agar menutupi seluruh area tanpa distorsi */
+    object-fit: cover; 
   }
   
   #carouselExampleCaptions .carousel-caption {
     position: absolute;
     top: 30%;
     left: 0%;
-    width: 100%; /* Memastikan caption melebar sepanjang carousel */
-    padding: 20px; /* Memberikan jarak dari tepi */
-    text-align: center; /* Teks rata kiri */
+    width: 100%; 
+    padding: 20px; 
+    text-align: center; 
   }
   
   #carouselExampleCaptions .carousel-caption h5 {
-    font-size: 3rem; /* Ukuran font besar untuk judul */
-    font-weight: 800; /* Membuat teks lebih tebal */
+    font-size: 3rem; 
+    font-weight: 800; 
   }
   
   #carouselExampleCaptions .carousel-caption p {
-    font-size: 1.5rem; /* Ukuran font untuk deskripsi */
-    font-weight: 700; /* Menjaga teks tetap normal */
+    font-size: 1.5rem; 
+    font-weight: 700; 
   }
   #carouselExampleCaptions .carousel-item img {
     height: 100%;
-    object-fit: cover; /* Ensure image covers the carousel area */
-    opacity: 0.5; /* Adjust opacity here (0 is fully transparent, 1 is fully opaque) */
+    object-fit: cover; 
+    opacity: 0.5; 
   }  
 
 /* Container for scrolling text */
 .title-berjalan {
-    overflow: hidden; /* Hide any overflow content */
-    white-space: nowrap; /* Prevent line breaks */
-    width: 100vw; /* Full viewport width */
-    position: relative; /* Relative positioning for child elements */
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 100vw; 
+    position: relative; 
     margin: 3vw auto 3vw;
   }
   
   /* Wrapper for scrolling text */
   .scrolling-wrapper {
-    display: flex; /* Align children in a row */
-    width: 100%; /* Full width to ensure proper alignment */
+    display: flex; 
+    width: 100%; 
   }
   
   /* Content that will scroll */
   .scrolling-text {
-    display: flex; /* Align text in a row */
-    animation: scroll-left 12s linear infinite; /* Apply scrolling animation */
+    display: flex; 
+    animation: scroll-left 12s linear infinite; 
   }
   
   /* Define the scrolling animation */
@@ -197,46 +197,36 @@
     margin-bottom: 10vw;
   }
 
-
-
-
-
-
-
-
-
-
-
   /* Responsive styles for tablets and smaller devices */
 @media (max-width: 992px) {
   #carouselExampleCaptions .carousel-caption h5 {
-    font-size: 2.5rem; /* Adjust the heading size */
+    font-size: 2.5rem; 
   }
 
   #carouselExampleCaptions .carousel-caption p {
-    font-size: 1.2rem; /* Adjust the paragraph size */
+    font-size: 1.2rem; 
   }
 
   .scrolling-text h1 {
-    font-size: 60px; /* Adjust scrolling text size */
+    font-size: 60px;
   }
 
   .card-highlight a img {
-    width: 35vw; /* Make images larger on smaller screens */
+    width: 35vw; 
   }
 
   .isi {
-    gap: 3vw; /* Adjust the gap between items */
+    gap: 3vw; 
   }
 
   .isi-other-videos a img, .isi-other-videos a#see-all-button {
-    width: 25vw; /* Adjust other video thumbnails */
+    width: 25vw; 
   }
 }
 
 @media (max-width: 768px) {
   #carouselExampleCaptions {
-    height: 70vh; /* Reduce carousel height */
+    height: 70vh; 
   }
 
   #carouselExampleCaptions .carousel-caption {
@@ -245,50 +235,50 @@
   }
 
   #carouselExampleCaptions .carousel-caption h5 {
-    font-size: 2rem; /* Smaller heading for smaller screens */
+    font-size: 2rem; 
   }
 
   #carouselExampleCaptions .carousel-caption p {
-    font-size: 1rem; /* Smaller paragraph text */
+    font-size: 1rem; 
   }
 
   .scrolling-text h1 {
-    font-size: 40px; /* Smaller scrolling text */
+    font-size: 40px; 
   }
 
   .card-highlight a img {
-    width: 50vw; /* Further reduce image size */
+    width: 50vw;
   }
 
   .isi {
-    flex-direction: column; /* Stack items vertically */
-    gap: 20px; /* Add space between stacked items */
+    flex-direction: column; 
+    gap: 20px; 
   }
 
   .isi h1 {
-    font-size: 1.5rem; /* Smaller font size for titles */
+    font-size: 1.5rem; 
   }
 
   .isi h3, .isi .collab h3 {
-    font-size: 1rem; /* Smaller font size for headers */
+    font-size: 1rem; 
   }
 
   .isi-other-videos a img, .isi-other-videos a#see-all-button {
-    width: 45vw; /* Adjust size of other video thumbnails */
+    width: 45vw; 
   }
 
   #see-all-button {
-    width: 100%; /* Full width button */
+    width: 100%; 
     padding: 15px;
-    font-size: 1.2rem; /* Adjust button text size */
+    font-size: 1.2rem; 
   }
 
   #see-all-button .material-symbols-outlined {
     padding: 8px;
-    font-size: 1.5rem; /* Adjust icon size */
+    font-size: 1.5rem; 
   }
 
   main {
-    margin-bottom: 5vw; /* Adjust bottom margin */
+    margin-bottom: 5vw;
   }
 }

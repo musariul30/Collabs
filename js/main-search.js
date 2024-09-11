@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const datadummy2 = data_dummy_new.filter(item => item.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()));
         const dataall = datadummy1.concat(datadummy2);
         if (dataall.length > 0) {
-            // Create and append card elements for each data item
             dataall.forEach(data => {
                 const cardElement = document.createElement('card-video');
                 cardElement.result = data;
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 mainElement.appendChild(cardElement);
             });
         } else {
-            // Create and display a message indicating no results were found
             mainElement.classList.remove("result")
             mainElement.classList.add("no-result")
             const noResultsMessage = document.createElement('p');

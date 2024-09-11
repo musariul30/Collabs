@@ -41,14 +41,14 @@ header .navbar {
 }
 .navbar {
     display: flex;
-    justify-content: space-between; /* Distributes space between brand, nav items, and search */
-    align-items: center; /* Vertically centers items */
+    justify-content: space-between; 
+    align-items: center; 
     width: 100%;
 }
 .navbar .navbar-nav {
-    margin: 15 auto; /* Centers the nav items horizontally */
-    display: flex; /* Ensures the nav items are in a row */
-    gap: 0px; /* Adds space between the links */
+    margin: 15 auto; 
+    display: flex; 
+    gap: 0px; 
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -56,7 +56,7 @@ header .navbar {
 	outline: none;
 }
 .navbar-brand img {
-    max-height: 69px; /* Adjust the height to fit within the header */
+    max-height: 69px; 
     width: auto; 
     padding: 10px 0;
 	padding-left: 10px;
@@ -134,8 +134,8 @@ header .navbar {
 
 .navbar #search {
 	position: relative;
-    display: flex; /* Ensures the search input and icon align properly */
-    margin-left: auto; /* Aligns the search to the right */
+    display: flex; 
+    margin-left: auto; 
   
 }
 
@@ -169,12 +169,6 @@ header .navbar {
     pointer-events: none; 
 }
 
-
-/* 
----------------------------------------------
-banner
---------------------------------------------- 
-*/
 
 .swiper-container {
 	height: calc(100vh - 0px);
@@ -294,8 +288,8 @@ banner
 		margin-top: 4rem;
 	}
 	.navbar-brand img {
-        max-height: 60px; /* Slightly reduce height for smaller screens */
-        padding: 8px 0; /* Reduce padding to fit better */
+        max-height: 60px; 
+        padding: 8px 0; 
         padding-left: 8px;
     }
 	.navbar .navbar-brand {
@@ -339,31 +333,31 @@ banner
 		padding-bottom: 15px;
 	}
     .navbar #search {
-        order: -1; /* Places search above the toggler button */
+        order: -1; 
         width: 100%;
-        margin: 0 auto; /* Centers the search bar */
-        padding: 10px 15px; /* Adds padding for better spacing */
+        margin: 0 auto; 
+        padding: 10px 15px; 
     }
 
     .navbar #search input {
 		background-color: #e928a0;
-        width: 100%; /* Expands the input to full width */
-        margin-top: 5px; /* Adjust top margin */
-        margin-bottom: 10px; /* Adjust bottom margin */
+        width: 100%; 
+        margin-top: 5px;
+        margin-bottom: 10px; 
     }
 
     .navbar #search i {
         top: 46%; 
-        transform: translateY(-50%); /* Centers the icon vertically */
-        right: 26px; /* Adjusts position of the icon */
+        transform: translateY(-50%); 
+        right: 26px; 
     }
 
 }
 
 @media (max-width: 768px) {
 	.navbar-brand img {
-        max-height: 50px; /* Slightly reduce height for smaller screens */
-        padding: 6px 0; /* Reduce padding to fit better */
+        max-height: 50px; 
+        padding: 6px 0; 
         padding-left: 6px;
     }
 	.banner .text-content {
@@ -394,10 +388,10 @@ banner
     }
 
 	.navbar #search {
-        margin-top: 10px; /* Adds top margin for better spacing */
+        margin-top: 10px; 
     }
 
     .navbar-toggler {
-        top: 70px; /* Adjust top position if necessary */
+        top: 70px;
     }
 }

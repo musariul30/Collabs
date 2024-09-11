@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerTitle = document.getElementById('header-top10');
     const cardTop1Element = document.createElement('card-video-top1');
     cardTop1Element.result = dataRank1[0];
-    // cardTop1Element.id = "container-top1-new";
     headerTitle.appendChild(cardTop1Element);
     
     // Mengambil data yang memiliki rank 2 hingga 9
