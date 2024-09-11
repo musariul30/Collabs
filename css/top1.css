@@ -1,5 +1,5 @@
 :root{
-    --size-of-container-top1: 40vw; /* range best value : 30vw-80vw */
+    --size-of-container-top1: 40vw; 
 }
 
 #container-top1 {
