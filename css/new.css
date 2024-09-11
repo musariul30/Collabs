@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     height: 120vh;
     width: 99vw;
-    font-family: "Poppins" !important;
+    font-family: "Poppins" ;
     background-attachment: fixed;
     overflow-x: hidden
 }
@@ -32,6 +32,10 @@ header {
     margin: 0;
     height: auto !important;
 }
+
+/* .navbar #search input {
+    font-size: 12px !important;
+} */
 
 
 

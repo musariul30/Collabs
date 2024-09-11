@@ -291,6 +291,7 @@ banner
 @media (max-width: 992px) {
 	main.result{
 		margin: 2rem;
+		margin-top: 4rem;
 	}
 	.navbar-brand img {
         max-height: 60px; /* Slightly reduce height for smaller screens */
